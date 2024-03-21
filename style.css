@@ -1,0 +1,337 @@
+body{
+	width: 1632px;
+	height: 1023px;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+.home{
+	width: 100%;
+	height: 100%;
+	background-image: url(bg.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.logo{
+	width: 130.57px;
+	height: 100px;
+	margin: 60px auto 0 auto;
+}
+.logoImg{
+	width: 100%;
+	height: 100%;
+}
+.list{
+	color: #FFFFFF;
+	list-style-type: none;
+}
+.frame{
+	display: flex;
+	width: 592px;
+	height: 480px;
+	margin: 120px auto 0 auto;
+}
+.phone{
+	width: 228.63px;
+	height: 480px;
+}
+.register{
+	margin: auto;
+	width: 303px;
+	height: 234pxpx;
+}
+li{
+	display: flex;
+	margin-left: -20px;
+	padding-bottom: 15px;
+}
+.number{
+	display: flex;
+	border: 1px solid #E10838;
+	color: #FFFFFF;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.liText{
+	display: flex;
+	font-family: 'Inter';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: left;
+	align-items: center;
+	margin-left: 10px;
+}
+.startBtn{
+	background: linear-gradient(84.35deg, #FF0E46 11.46%, #E30036 31.95%, #FD264E 55.35%, #FF345D 76.53%, #FD0A46 97.17%);
+	border: 2px solid #FF5471;
+	width: 303px;
+	height: 56px;
+	padding: 18px 50px 18px 50px;
+	border-radius: 100px;
+	margin-top: 15px;
+	margin-left: 25px;
+	box-shadow: 0px 0px 16px 0px #F0043E;
+	font-family: "Inter";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0.01em;
+	color: #FAFAFA;
+	text-transform: uppercase;
+}
+.coin1, .coin2, .coin3, .coin4{
+	position: absolute;
+	display: flex;
+}
+.coin1{
+	top: 241px;
+	left: 1312px;
+}
+.coin2{
+	top: 831.48px;
+	left: 463.21px;
+}
+.coin3{
+	top: 867.05px;
+	left: 1098px;
+}
+.coin4{
+	top: 202px;
+}
+@media(max-width:1248px){
+	body{
+		width: 1248px;
+		height: 782.29px;
+	}
+	.home{
+		margin-top: -5%;
+		height: 105%;
+		overflow: hidden;
+	}
+	.logo{
+		width: 65.29px;
+		height: 50px;
+		margin: 120px auto 0 auto;
+	}
+	.frame{
+		margin: 50px auto 0 auto;
+	}
+	.coin1{
+		top: 241px;
+		left: 1180px;	
+	}
+	.coin2{
+		top: 596.48px;
+		left: 218.21px;
+	}
+	.coin3{
+		top: 598.05px;
+		left: 698px;
+	}
+	.coin4{
+		top: 102px;
+	}
+}
+@media(max-width:960px){
+	body{
+		width: 960px;
+		height: 768px;
+	}
+	.home{
+		height: 100%;
+		margin: -13% 0;
+		margin-top: 0%;
+		width: 126%;
+		background-size:cover;
+	}
+	.logo{
+		margin: 45px auto 0 auto;
+	}
+	.frame{
+		margin: 55px auto 0 auto;
+	}
+	.coin1{
+		top: 211px;
+		left: 900px;	
+	}
+	.coin2{
+		top: 636.48px;
+		left: 58.21px;
+	}
+	.coin3{
+		top: 658.05px;
+		left: 518px;
+	}
+	.coin4{
+		top: 92px;
+	}
+}
+@media(max-width:768px){
+	body{
+		width: 768px;
+		height: 960px;
+	}
+	.home{
+		margin-left: -100%;
+		width: 200%;
+		height: 105%;
+	}
+	.logo{
+		margin-left: 1120px;
+	}
+	.frame{
+		margin-left: 1040px;
+		display: block;
+	}
+	.register{
+		margin-left: -130px;
+		margin-top: 40px;		
+	}
+	.liText{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+	.number{
+		width: 24px;
+		height: 24px;
+	}
+	.startBtn{
+		margin-left: 90px;
+	}
+	.coin1{
+		top: 321px;
+		left: 1465px;	
+	}
+	.coin2{
+		top: 856.48px;
+		left: 828.21px;
+	}
+	.coin3{
+		top: 885.05px;
+		left: 1385px;
+	}
+	.coin4{
+		top: 92px;
+		left: 765px;
+	}
+}
+@media(max-width:768px){
+	body{
+		width: 768px;
+		height: 960px;
+	}
+	.home{
+		margin-left: -100%;
+		width: 200%;
+		height: 105%;
+	}
+	.logo{
+		margin-left: 1120px;
+	}
+	.frame{
+		margin-left: 1040px;
+		display: block;
+	}
+	.register{
+		margin-left: -130px;
+		margin-top: 40px;		
+	}
+	.liText{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+	.number{
+		width: 24px;
+		height: 24px;
+	}
+	.startBtn{
+		margin-left: 90px;
+	}
+	.coin1{
+		top: 321px;
+		left: 1465px;	
+	}
+	.coin2{
+		top: 856.48px;
+		left: 828.21px;
+	}
+	.coin3{
+		top: 885.05px;
+		left: 1385px;
+	}
+	.coin4{
+		top: 92px;
+		left: 765px;
+	}
+}
+@media(max-width:360px){
+	body{
+		width: 360px;
+		height: 800px;
+	}
+	.home{
+		margin-left: -200%;
+		width: 300%;
+	}
+	.phone{
+		width: 190.52px;
+		height: 400px;
+	}
+	.logo{
+		margin-top: 15px;
+		margin-left: 870px;
+	}
+	.frame{
+		margin-top: 30px;
+		margin-left: 805px;
+	}
+	.liText{
+		width: 170px;
+	}
+	.register{
+		margin-left: -80px;
+		margin-top: 20px;		
+	}
+	.startBtn{
+		margin-top: 0px;
+		margin-left: 25px;
+		padding: 18px 40px 18px 40px;
+	}
+	.coin1{
+		top: 281px;
+		left: 1035px;	
+		width: 72px;
+		height: 52px;
+	}
+	.coin2{
+		top: 766.48px;
+		left: 778.21px;
+		width: 40px;
+		height: 45px;
+	}
+	.coin3{
+		top: 785.05px;
+		left: 1020px;
+		width: 60px;
+		height: 69px;
+	}
+	.coin4{
+		top: 80px;
+		left: 720px;
+		width: 97px;
+		height: 57px;
+	}
+}
+
