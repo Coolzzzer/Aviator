@@ -70,6 +70,7 @@ li{
 	text-align: left;
 	align-items: center;
 	margin-left: 10px;
+	width: 250px;
 }
 .startBtn{
 	background: linear-gradient(84.35deg, #FF0E46 11.46%, #E30036 31.95%, #FD264E 55.35%, #FF345D 76.53%, #FD0A46 97.17%);
@@ -252,10 +253,6 @@ li{
 		font-weight: 400;
 		line-height: 20px;
 	}
-	.number{
-		width: 24px;
-		height: 24px;
-	}
 	.startBtn{
 		margin-left: 90px;
 	}
@@ -298,7 +295,7 @@ li{
 		margin-left: 805px;
 	}
 	.liText{
-		width: 170px;
+		width: 180px;
 	}
 	.register{
 		margin-left: -80px;
