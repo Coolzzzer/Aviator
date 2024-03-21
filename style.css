@@ -119,20 +119,16 @@ li{
   position: relative;
 	display: flex;
 }
-
 video {
   width: 100%;
 }
-
 .progress-bar {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 5px;
+  height: 10px;
   background-color: #ff0000;
 }
-
-
 @media(max-width:1248px){
 	.home{
 		width: 1248px;
@@ -271,6 +267,9 @@ video {
 	.video-container {
 		width: 360px;
 		margin-top: 40px;
+	}
+	.progress-bar {
+  	height: 5px;
 	}
 	.homeContent{
 		margin-left: -200%;
