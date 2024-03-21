@@ -1,11 +1,14 @@
 body{
-	width: 1632px;
-	height: 1023px;
-	display: flex;
+	max-width: 1632px;
 	padding: 0;
 	margin: 0;
 }
 .home{
+	width: 1632px;
+	height: 1023px;
+	display: flex;
+}
+.homeContent{
 	width: 100%;
 	height: 100%;
 	background-image: url(bg.png);
@@ -109,12 +112,37 @@ li{
 .coin4{
 	top: 202px;
 }
+
+.video-container {
+	width: 1632px;
+	margin-top: -1px;
+  position: relative;
+	display: flex;
+}
+
+video {
+  width: 100%;
+}
+
+.progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  background-color: #ff0000;
+}
+
+
 @media(max-width:1248px){
-	body{
+	.home{
 		width: 1248px;
 		height: 782.29px;
 	}
-	.home{
+	.video-container {
+		width: 1248px;
+		margin-top: -45px;
+	}
+	.homeContent{
 		margin-top: -5%;
 		height: 105%;
 		overflow: hidden;
@@ -144,11 +172,15 @@ li{
 	}
 }
 @media(max-width:960px){
-	body{
+	.home{
 		width: 960px;
 		height: 768px;
 	}
-	.home{
+	.video-container {
+		width: 960px;
+		margin-top: 0px;
+	}
+	.homeContent{
 		height: 100%;
 		margin: -13% 0;
 		margin-top: 0%;
@@ -178,11 +210,15 @@ li{
 	}
 }
 @media(max-width:768px){
-	body{
+	.home{
 		width: 768px;
 		height: 960px;
 	}
-	.home{
+	.video-container {
+		width: 768px;
+		margin-top: 45px;
+	}
+	.homeContent{
 		margin-left: -100%;
 		width: 200%;
 		height: 105%;
@@ -227,58 +263,16 @@ li{
 		left: 765px;
 	}
 }
-@media(max-width:768px){
-	body{
-		width: 768px;
-		height: 960px;
-	}
-	.home{
-		margin-left: -100%;
-		width: 200%;
-		height: 105%;
-	}
-	.logo{
-		margin-left: 1120px;
-	}
-	.frame{
-		margin-left: 1040px;
-		display: block;
-	}
-	.register{
-		margin-left: -130px;
-		margin-top: 40px;		
-	}
-	.liText{
-		font-size: 16px;
-		font-weight: 400;
-		line-height: 20px;
-	}
-	.startBtn{
-		margin-left: 90px;
-	}
-	.coin1{
-		top: 321px;
-		left: 1465px;	
-	}
-	.coin2{
-		top: 856.48px;
-		left: 828.21px;
-	}
-	.coin3{
-		top: 885.05px;
-		left: 1385px;
-	}
-	.coin4{
-		top: 92px;
-		left: 765px;
-	}
-}
 @media(max-width:360px){
-	body{
+	.home{
 		width: 360px;
 		height: 800px;
 	}
-	.home{
+	.video-container {
+		width: 360px;
+		margin-top: 40px;
+	}
+	.homeContent{
 		margin-left: -200%;
 		width: 300%;
 	}
@@ -331,4 +325,5 @@ li{
 		height: 57px;
 	}
 }
+
 
